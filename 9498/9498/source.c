@@ -14,7 +14,9 @@ int main() {
 		printf("C");
 	}
 	else if (score > 59) {
-		printf()
+		printf("D");
 	}
+	else { printf("F"); }
+
 
 }
