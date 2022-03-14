@@ -16,7 +16,7 @@ int carry = 0, i; //carry는 받아올림
 scanf("%s%s", A, B);
 reverse(A);
 reverse(B);
-//더 긴 숫자의 길이 저장
+//더 긴 숫 자의 길이 저장
 int len = strlen(A) > strlen(B) ? strlen(A) : strlen(B);
 for (i = 0; i < len; i++) {
 //숫자로 변환해 받아올림과 함께 더한다
